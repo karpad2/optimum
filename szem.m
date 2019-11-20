@@ -7,14 +7,14 @@
 
 %DFP , BGS rendszerek összehasonlításave
 
-functions=[];
 
-functions{1}=@(x)x(1)*exp(-(x(1)^2 + x(2)^2)) + (x(1)^2 + x(2)^2)/20;
-functions{2}=@(x) 3*x(1)+4*x(2);
+
+
+funs=myfuns();
 
 options_dfp = optimset('Display','iter','LargeScale','off','HessUpdate','dfp'); %DFP;
 options_bfgs = optimset('Display','iter','LargeScale','off'); %BFGS
-%options_bfgs = optimoptions('fminunc','Display','iter','Algorithm','quasi-newton');
+options_qnewton = optimoptions('fminunc','Algorithm','quasi-newton');
 options_grad = optimset('Display','iter','GradObj','on'); %Gradiensel való számolás
 
 deltaf=[];deltafval=[];
@@ -25,9 +25,11 @@ fval1=[];fval2=[];fval3=[];
 x=1:length(functions);
 for i=1:length(functions)
   x0=[0,0];
-  [f1(i),fval1(i)]=fminunc(functions{i},x0,options_dfp);% dfp
-  [f2(i),fval2(i)]=fminunc(functions{i},x0,options_bfgs);% bfgs
-  [f3(i),fval3(i)]=fmincon(functions{i},x0,options_bfgs);% sqp
+  [f1(i),fval1(i)]=fminunc(functions{i},x0,options_dfp);% dfp quasi newton
+  [f2(i),fval2(i)]=fminunc(functions{i},x0,options_bfgs);% bfgs quasi newton
+  [f3(i),fval3(i)]=fminsearch(functions{i},x0);% vonalmenti
 end
+
+
 
 plot(x,f1,f2,f3)
