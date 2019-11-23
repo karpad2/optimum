@@ -21,13 +21,12 @@ deltaf=[];deltafval=[];
 
 
 f1=[];f2=[];f3=[];
-fval1=[];fval2=[];fval3=[];
-x=1:length(functions);
-for i=1:length(functions)
+x=1:length(funs);
+for i=x
   x0=[0,0];
-  [f1(i),fval1(i)]=fminunc(functions{i},x0,options_dfp);% dfp quasi newton
-  [f2(i),fval2(i)]=fminunc(functions{i},x0,options_bfgs);% bfgs quasi newton
-  [f3(i),fval3(i)]=fminsearch(functions{i},x0);% vonalmenti
+  f1(i,:)=fminunc(funs{i},x0,options_qnewton);% quasi newton
+  f2(i,:)=fminunc(funs{i},x0,options_bfgs);% bfgs quasi newton
+  f3(i,:)=fminsearch(funs{i},x0);% vonalmenti
 end
 
 
