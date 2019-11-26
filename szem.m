@@ -12,7 +12,7 @@
 
 funs=myfuns();
 
-options_dfp = optimset('Display','iter','LargeScale','off','HessUpdate','dfp'); %DFP;
+options_linesearch = optimset('PlotFcns',@optimplotfval); %DFP;
 options_bfgs = optimset('Display','iter','LargeScale','off'); %BFGS
 options_qnewton = optimoptions('fminunc','Display','iter','Algorithm','quasi-newton');
 
@@ -22,16 +22,38 @@ deltaf=[];deltafval=[];
 f1=[];f2=[];f3=[];
 x=1:length(funs);
 for i=x
-  x0=[0,0];
-  disp(funs{i})
+    
+  x0=[0,0,0,0];
+  disp('------------------------')
+  disp(i)
+  functions(funs{i})
+  %disp(funs{i})
+  %try
   disp('Quasi Newton:')
-  [f1(i,:),iter]=fminunc(funs{i},x0,options_qnewton);
+  [fmin,fval]=fminunc(funs{i},x0,options_qnewton);
+  f1(i,:)=[fmin,fval];
+  %catch ME
+ % disp('Error:')
+  %disp(ME.identifier);
+  %end
+  try
   disp('BFGS:')
-  f2(i,:)=fminunc(funs{i},x0,options_bfgs);% bfgs quasi newton
+  [fmin,fval]=fminunc(funs{i},x0,options_bfgs);% bfgs quasi newton
+  f2(i,:)=[fmin,fval];
+  catch
+  disp('Error:')
+  disp(ME.identifier);
+  end
+  try
   disp('Vonalmenti:')
-  f3(i,:)=fminsearch(funs{i},x0);% vonalmenti
+ [fmin,fval]=fminsearch(funs{i},x0,options_linesearch);% vonalmenti
+    f3(i,:)=[fmin,fval];
+   catch
+   disp('Error:')
+  disp(ME.identifier);
+  end
 end
 
 
 
-plot(x,f1(:,1)',f2(:,1)',f3(:,1)')
+plot(1:length(f1),f1(:,1)',f2(:,1)',f3(:,1)')
