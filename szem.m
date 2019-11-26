@@ -5,16 +5,16 @@
 %Azirreguláris teszt feladatokat ne vegye figyelembe
 
 
-%DFP , BGS rendszerek összehasonlításave
+%Quasi newton, BFGS, Vonalmenti
 
-
+clear;clc;
 
 
 funs=myfuns();
 
-options_linesearch = optimset('PlotFcns',@optimplotfval); %DFP;
+options_linesearch = optimset('PlotFcns',@optimplotfval); %Vonalmenti;
 options_bfgs = optimset('Display','iter','LargeScale','off'); %BFGS
-options_qnewton = optimoptions('fminunc','Display','iter','Algorithm','quasi-newton');
+options_qnewton = optimoptions('fminunc','Display','iter','Algorithm','quasi-newton'); % quasi newton
 
 deltaf=[];deltafval=[];
 
@@ -26,16 +26,16 @@ for i=x
   x0=[0,0,0,0];
   disp('------------------------')
   disp(i)
-  functions(funs{i})
-  %disp(funs{i})
-  %try
+  %functions(funs{i})
+  disp(funs{i})
+  try
   disp('Quasi Newton:')
   [fmin,fval]=fminunc(funs{i},x0,options_qnewton);
   f1(i,:)=[fmin,fval];
-  %catch ME
- % disp('Error:')
-  %disp(ME.identifier);
-  %end
+  catch ME
+  disp('Error:')
+  disp(ME.identifier);
+  end
   try
   disp('BFGS:')
   [fmin,fval]=fminunc(funs{i},x0,options_bfgs);% bfgs quasi newton
