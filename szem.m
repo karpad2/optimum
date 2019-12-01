@@ -5,7 +5,8 @@
 %Azirreguláris teszt feladatokat ne vegye figyelembe
 
 
-%Quasi newton, BFGS, Vonalmenti
+%Quasi newton, BFGS, Vonalmenti, dfp
+
 
 clear;clc;
 
@@ -15,13 +16,14 @@ funs=myfuns();
 options_linesearch = optimset('PlotFcns',@optimplotfval); %Vonalmenti;
 options_bfgs = optimset('Display','iter','LargeScale','off'); %BFGS
 options_qnewton = optimoptions('fminunc','Display','iter','Algorithm','quasi-newton'); % quasi newton
+options_trust_region = optimoptions('fminunc','Display','iter','Algorithm','quasi-newton','HessUpdate','dfp'); % quasi newton~ trust region
 
 deltaf=[];deltafval=[];
 
 
-f1=[];f2=[];f3=[];
-x=1:length(funs);
-for i=x
+f1=[];f2=[];f3=[];f4=[];
+l1=1:length(funs);
+for i=l1
     
   x0=[0,0,0,0];
   disp('------------------------')
@@ -40,10 +42,11 @@ for i=x
   disp('BFGS:')
   [fmin,fval]=fminunc(funs{i},x0,options_bfgs);% bfgs quasi newton
   f2(i,:)=[fmin,fval];
-  catch
+  catch ME
   disp('Error:')
   disp(ME.identifier);
   end
+  
   try
   disp('Vonalmenti:')
  [fmin,fval]=fminsearch(funs{i},x0,options_linesearch);% vonalmenti
@@ -52,8 +55,25 @@ for i=x
    disp('Error:')
   disp(ME.identifier);
   end
+  
+  try
+  disp('Trust region:')
+  [fmin,fval]=fminunc(funs{i},x0,options_trust_region);% dfp quasi newton
+  f4(i,:)=[fmin,fval];
+  catch ME
+  disp('Error:')
+  disp(ME.identifier);
+  end 
+   avg = mean([f1(i,1),f2(i,1),f3(i,1),f4(i,1)])
+   
+  
+  
 end
 
 
 
-plot(1:length(f1),f1(:,1)',f2(:,1)',f3(:,1)')
+plot(1:length(f1),f1(:,1)',f2(:,1)',f3(:,1)',f4(:,1)')
+
+
+% Felhasznált irodalom
+% https://www.mathworks.com/help/optim/ug/fminunc.html
