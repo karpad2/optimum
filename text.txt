@@ -1,0 +1,3116 @@
+diary on
+szem
+------------------------
+     1
+
+    @(x)4*(x(1)-5)^2+(x(2)-6)^2
+
+Quasi Newton:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5              136                            40
+     1          10            96.49          0.025             32  
+     2          15          10.5256              1           6.42  
+     3          20          5.28755              1           4.41  
+     4          25        0.0184964              1          0.537  
+     5          30       0.00021021              1         0.0565  
+     6          35      1.71194e-08              1       0.000256  
+     7          40      4.16388e-12              1       4.03e-06  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',9.828664e-08,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    5.0000    6.0000         0         0
+
+
+fval =
+
+   4.1639e-12
+
+BFGS:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5              136                            40
+     1          10            96.49          0.025             32  
+     2          15          10.5256              1           6.42  
+     3          20          5.28755              1           4.41  
+     4          25        0.0184964              1          0.537  
+     5          30       0.00021021              1         0.0565  
+     6          35      1.71194e-08              1       0.000256  
+     7          40      4.16388e-12              1       4.03e-06  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',9.828664e-08,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    5.0000    6.0000         0         0
+
+
+fval =
+
+   4.1639e-12
+
+
+f2 =
+
+    5.0000    6.0000         0         0    0.0000
+
+Vonalmenti:
+
+fmin =
+
+    5.0000    6.0000   -0.5678   -5.6781
+
+
+fval =
+
+   1.1558e-10
+
+Trust region:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5              136                            40
+     1          10            96.49          0.025             32  
+     2          15          10.8901              1           6.53  
+     3          20          5.83452              1           4.64  
+     4          25         0.153769              1           1.54  
+     5          30        0.0160993              1          0.504  
+     6          35      2.43972e-05              1        0.00935  
+     7          40       1.1716e-07              1       0.000682  
+     8          45      5.15506e-12              1        8.3e-06  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',2.024884e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    5.0000    6.0000         0         0
+
+
+fval =
+
+   5.1551e-12
+
+
+avg =
+
+    5.0000
+
+------------------------
+     2
+
+    @(x)(-13+x(1)-2*x(2)+5*x(2)^2-3*x(2)^3)^2+(-29+x(1)-14*x(2)+x(2)^2+x(2)^3)^2
+
+Quasi Newton:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5             1010                           864
+     1          10          230.519     0.00115741            509  
+     2          20          170.155       0.289166            368  
+     3          25          149.808              1            109  
+     4          30          146.862              1           19.3  
+     5          35          146.076              1           13.3  
+     6          40          144.182              1           57.1  
+     7          45           138.79              1            134  
+     8          50          126.914              1            225  
+     9          55          106.712              1            283  
+    10          60          86.8702              1            251  
+    11          65           70.607              1            159  
+    12          70          61.4597              1           58.1  
+    13          75          59.8027              1           11.9  
+    14          80          59.6968              1           1.12  
+    15          85          59.6951              1        0.00235  
+    16          90          59.6951              1        0.00428  
+    17          95          59.6951              1       0.000394  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',4.558894e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+   13.3010   -0.7208         0         0
+
+
+fval =
+
+   59.6951
+
+BFGS:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5             1010                           864
+     1          10          230.519     0.00115741            509  
+     2          20          170.155       0.289166            368  
+     3          25          149.808              1            109  
+     4          30          146.862              1           19.3  
+     5          35          146.076              1           13.3  
+     6          40          144.182              1           57.1  
+     7          45           138.79              1            134  
+     8          50          126.914              1            225  
+     9          55          106.712              1            283  
+    10          60          86.8702              1            251  
+    11          65           70.607              1            159  
+    12          70          61.4597              1           58.1  
+    13          75          59.8027              1           11.9  
+    14          80          59.6968              1           1.12  
+    15          85          59.6951              1        0.00235  
+    16          90          59.6951              1        0.00428  
+    17          95          59.6951              1       0.000394  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',4.558894e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+   13.3010   -0.7208         0         0
+
+
+fval =
+
+   59.6951
+
+
+f2 =
+
+    5.0000    6.0000         0         0    0.0000
+   13.3010   -0.7208         0         0   59.6951
+
+Vonalmenti:
+
+fmin =
+
+   13.3010   -0.7208    5.8011   -9.3861
+
+
+fval =
+
+   59.6951
+
+Trust region:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5             1010                           864
+     1          10          230.519     0.00115741            509  
+     2          20          170.152       0.289165            368  
+     3          25          149.809              1            109  
+     4          30          146.869              1           19.3  
+     5          35          146.159              1           13.3  
+     6          40          145.331              1           51.9  
+     7          45          144.605              1           84.3  
+     8          50          143.772              1            124  
+     9          55           143.05              1            156  
+    10          60          142.217              1            195  
+    11          65          141.502              1            225  
+    12          70          140.677              1            261  
+    13          75          139.971              1            289  
+    14          80          139.159              1            322  
+    15          85          138.465              1            347  
+    16          90           137.67              1            376  
+    17          95           136.99              1            397  
+    18         100          136.212              1            420  
+    19         105          135.547              1            437  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         110          134.786              1            455  
+    21         115          134.136              1            467  
+    22         120           133.39              1            480  
+    23         125          132.752              1            488  
+    24         130          132.019              1            495  
+    25         135          131.392              1            500  
+    26         140          130.668              1            503  
+    27         145           130.05              1            504  
+    28         150          129.335              1            503  
+    29         155          128.722              1            501  
+    30         160          128.015              1            497  
+    31         165          127.406              1            493  
+    32         170          126.706              1            486  
+    33         175            126.1              1            480  
+    34         180          125.407              1            471  
+    35         185          124.803              1            463  
+    36         190          124.116              1            452  
+    37         195          123.513              1            442  
+    38         200          122.834              1            430  
+    39         205          122.231              1            419  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    40         210          121.559              1            405  
+    41         215          120.957              1            393  
+    42         220          120.293              1            379  
+    43         225          119.691              1            366  
+    44         230          119.036              1            351  
+    45         235          118.435              1            337  
+    46         240          117.787              1            321  
+    47         245          117.188              1            306  
+    48         250          116.549              1            289  
+    49         255          115.952              1            274  
+    50         260          115.321              1            257  
+    51         265          114.728              1            241  
+    52         270          114.105              1            223  
+    53         275          113.515              1            207  
+    54         280            112.9              1            189  
+    55         285          112.315              1            172  
+    56         290          111.709              1            154  
+    57         295          111.129              1            137  
+    58         300          110.532              1            119  
+    59         305          109.959              1            102  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    60         310          109.372              1           83.5  
+    61         315          108.807              1           66.3  
+    62         320          108.232              1           48.5  
+    63         325          107.677              1           31.7  
+    64         330          107.114              1           14.5  
+    65         335          106.572              1           12.3  
+    66         340          106.023              1           18.2  
+    67         345          105.494              1           33.6  
+    68         350          104.961              1           48.9  
+    69         355          104.446              1           63.2  
+    70         360          103.928              1           77.2  
+    71         365          103.427              1           90.2  
+    72         370          102.923              1            103  
+    73         375          102.434              1            114  
+    74         380          101.942              1            126  
+    75         385          101.463              1            136  
+    76         390          100.981              1            146  
+    77         395           100.51              1            155  
+    78         400          100.035              1            163  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'solver_stopped_premature','CSHelpWindow');">Solver stopped prematurely</a>.
+
+fminunc stopped because it exceeded the function evaluation limit,
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'max_fun_evals','CSHelpWindow');">options.MaxFunctionEvaluations</a> = 400 (the default value).
+
+
+fmin =
+
+   19.0697   -0.1685         0         0
+
+
+fval =
+
+  100.0346
+
+
+avg =
+
+   14.7432
+
+------------------------
+     3
+
+    @(x)(1.5-x(1)*(1-x(2)))^2+(2.25-x(1)*(1-x(2)^2))^2+(2.625-x(1)*(1-x(2)^3))^2
+
+Quasi Newton:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5          14.2031                          12.8
+     1          10          4.45313      0.0784314           6.75  
+     2          15           2.2893              1           6.69  
+     3          20          0.38384              1           1.53  
+     4          25         0.182771              1          0.731  
+     5          30        0.0385012              1          0.391  
+     6          35        0.0123996              1           0.29  
+     7          40       0.00299959              1           0.42  
+     8          45       0.00048203              1         0.0229  
+     9          50      4.11496e-05              1        0.00661  
+    10          55      4.12768e-07              1        0.00353  
+    11          60      3.85789e-10              1       2.27e-05  
+    12          65       4.2656e-14              1       1.83e-06  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',1.333607e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    3.0000    0.5000         0         0
+
+
+fval =
+
+   4.2656e-14
+
+BFGS:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5          14.2031                          12.8
+     1          10          4.45313      0.0784314           6.75  
+     2          15           2.2893              1           6.69  
+     3          20          0.38384              1           1.53  
+     4          25         0.182771              1          0.731  
+     5          30        0.0385012              1          0.391  
+     6          35        0.0123996              1           0.29  
+     7          40       0.00299959              1           0.42  
+     8          45       0.00048203              1         0.0229  
+     9          50      4.11496e-05              1        0.00661  
+    10          55      4.12768e-07              1        0.00353  
+    11          60      3.85789e-10              1       2.27e-05  
+    12          65       4.2656e-14              1       1.83e-06  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',1.333607e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    3.0000    0.5000         0         0
+
+
+fval =
+
+   4.2656e-14
+
+
+f2 =
+
+    5.0000    6.0000         0         0    0.0000
+   13.3010   -0.7208         0         0   59.6951
+    3.0000    0.5000         0         0    0.0000
+
+Vonalmenti:
+
+fmin =
+
+    3.0000    0.5000   -0.0955   -0.4736
+
+
+fval =
+
+   1.3958e-10
+
+Trust region:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5          14.2031                          12.8
+     1          10          4.45313      0.0784314           6.75  
+     2          15          2.22375              1           6.55  
+     3          20         0.469949              1           1.38  
+     4          25         0.241872              1           1.02  
+     5          30        0.0618702              1          0.391  
+     6          35        0.0190386              1          0.168  
+     7          40       0.00441021              1          0.179  
+     8          45      0.000740743              1          0.145  
+     9          50      5.23176e-05              1         0.0666  
+    10          55      2.82545e-06              1        0.00554  
+    11          60      7.81344e-08              1        0.00025  
+    12          65      6.38265e-11              1       5.49e-05  
+    13          70      8.90144e-14              1       1.94e-06  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',1.413950e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    3.0000    0.5000         0         0
+
+
+fval =
+
+   8.9014e-14
+
+
+avg =
+
+    3.0000
+
+------------------------
+     4
+
+    @(x)(x(2)-x(1)^2)^2+100*(1-x(1))^2
+
+Quasi Newton:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5              100                           200
+     1          10                1          0.005              4  
+     2          15         0.943892              1            1.9  
+     3          20         0.920822              1           1.86  
+     4          25         0.688867              1           5.71  
+     5          30         0.425181              1           8.04  
+     6          35         0.129032              1           6.71  
+     7          40        0.0176133              1           2.67  
+     8          45      0.000626395              1          0.331  
+     9          50      7.69432e-06              1        0.00541  
+    10          55      2.35239e-08              1        0.00221  
+    11          60      1.78566e-11              1       8.77e-05  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',4.364839e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    1.0000    1.0000         0         0
+
+
+fval =
+
+   1.7857e-11
+
+BFGS:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5              100                           200
+     1          10                1          0.005              4  
+     2          15         0.943892              1            1.9  
+     3          20         0.920822              1           1.86  
+     4          25         0.688867              1           5.71  
+     5          30         0.425181              1           8.04  
+     6          35         0.129032              1           6.71  
+     7          40        0.0176133              1           2.67  
+     8          45      0.000626395              1          0.331  
+     9          50      7.69432e-06              1        0.00541  
+    10          55      2.35239e-08              1        0.00221  
+    11          60      1.78566e-11              1       8.77e-05  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',4.364839e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    1.0000    1.0000         0         0
+
+
+fval =
+
+   1.7857e-11
+
+
+f2 =
+
+    5.0000    6.0000         0         0    0.0000
+   13.3010   -0.7208         0         0   59.6951
+    3.0000    0.5000         0         0    0.0000
+    1.0000    1.0000         0         0    0.0000
+
+Vonalmenti:
+
+fmin =
+
+    1.0000    1.0000   -0.2143    0.3568
+
+
+fval =
+
+   1.1781e-09
+
+Trust region:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5              100                           200
+     1          10                1          0.005              4  
+     2          15         0.943894              1            1.9  
+     3          20         0.924785              1           1.87  
+     4          25         0.853208              1           5.43  
+     5          30         0.834712              1            6.1  
+     6          35         0.770566              1           9.74  
+     7          40         0.752732              1           10.3  
+     8          45         0.695098              1           12.8  
+     9          50         0.677972              1           13.2  
+    10          55         0.625702              1           14.6  
+    11          60         0.609306              1           14.8  
+    12          65         0.561517              1           15.1  
+    13          70          0.54585              1             15  
+    14          75         0.502083              1           14.3  
+    15          80         0.487131              1           13.9  
+    16          85         0.447251              1           12.3  
+    17          90         0.433011              1           11.8  
+    18          95         0.396959              1           9.57  
+    19         100         0.383447              1           8.86  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         105         0.351031              1           6.26  
+    21         110         0.338278              1           5.46  
+    22         115          0.30915              1           2.75  
+    23         120         0.297179              1           1.92  
+    24         125         0.270931              1           1.01  
+    25         130         0.259747              1            1.4  
+    26         135         0.236035              1           3.61  
+    27         140         0.225623              1           4.22  
+    28         145         0.204229              1           5.87  
+    29         150         0.194569              1           6.29  
+    30         155         0.175388              1           7.27  
+    31         160         0.166465              1           7.44  
+    32         165         0.149425              1            7.7  
+    33         170         0.141237              1           7.61  
+    34         175         0.126227              1           7.21  
+    35         180         0.118773              1           6.87  
+    36         185         0.105635              1           5.92  
+    37         190        0.0988992              1           5.39  
+    38         195        0.0874583              1           4.09  
+    39         200        0.0814149              1           3.44  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    40         205        0.0715197              1              2  
+    41         210         0.066138              1           1.34  
+    42         215        0.0576695              1          0.471  
+    43         220        0.0529238              1          0.607  
+    44         225        0.0457739              1           1.67  
+    45         230        0.0416425              1            2.1  
+    46         235        0.0356912              1           2.76  
+    47         240        0.0321474              1           2.96  
+    48         245        0.0272608              1           3.15  
+    49         250        0.0242684              1           3.11  
+    50         255        0.0203149              1            2.9  
+    51         260        0.0178322              1           2.64  
+    52         265        0.0146953              1           2.13  
+    53         270        0.0126812              1           1.74  
+    54         275        0.0102556              1           1.11  
+    55         280       0.00866832              1          0.684  
+    56         285       0.00685013              1          0.164  
+    57         290       0.00564213              1          0.228  
+    58         295       0.00432856              1          0.603  
+    59         300       0.00344778              1          0.772  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    60         305       0.00254366              1          0.883  
+    61         310        0.0019375              1          0.863  
+    62         315       0.00135611              1          0.749  
+    63         320      0.000971379              1          0.595  
+    64         325      0.000631323              1          0.379  
+    65         330      0.000413579              1          0.202  
+    66         335      0.000240442              1         0.0314  
+    67         340        0.0001371              1         0.0642  
+    68         345      6.66348e-05              1           0.11  
+    69         350      3.01118e-05              1          0.102  
+    70         355       1.0685e-05              1         0.0663  
+    71         360      3.14231e-06              1         0.0296  
+    72         365      6.08507e-07              1        0.00571  
+    73         370      7.65843e-08              1        0.00135  
+    74         375      4.52493e-09              1         0.0011  
+    75         380      1.16839e-10              1       0.000222  
+    76         385      9.16899e-13              1        1.4e-05  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',6.954844e-08,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    1.0000    1.0000         0         0
+
+
+fval =
+
+   9.1690e-13
+
+
+avg =
+
+    1.0000
+
+------------------------
+     5
+
+    @(x)(x(2)-x(1)^2)^2+(1-x(1))^2
+
+Quasi Newton:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                1                             2
+     1          15           0.3125           0.25            0.5  
+     2          20         0.185205              1          0.676  
+     3          25        0.0450493              1          0.252  
+     4          30       0.00394968              1         0.0565  
+     5          35      0.000167832              1         0.0184  
+     6          40      3.96603e-06              1        0.00836  
+     7          45      3.51457e-07              1        0.00239  
+     8          50      1.86412e-12              1       5.84e-06  
+     9          55      2.59595e-15              1          1e-08  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',3.343397e-09,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    1.0000    1.0000         0         0
+
+
+fval =
+
+   2.5959e-15
+
+BFGS:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                1                             2
+     1          15           0.3125           0.25            0.5  
+     2          20         0.185205              1          0.676  
+     3          25        0.0450493              1          0.252  
+     4          30       0.00394968              1         0.0565  
+     5          35      0.000167832              1         0.0184  
+     6          40      3.96603e-06              1        0.00836  
+     7          45      3.51457e-07              1        0.00239  
+     8          50      1.86412e-12              1       5.84e-06  
+     9          55      2.59595e-15              1          1e-08  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',3.343397e-09,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    1.0000    1.0000         0         0
+
+
+fval =
+
+   2.5959e-15
+
+
+f2 =
+
+    5.0000    6.0000         0         0    0.0000
+   13.3010   -0.7208         0         0   59.6951
+    3.0000    0.5000         0         0    0.0000
+    1.0000    1.0000         0         0    0.0000
+    1.0000    1.0000         0         0    0.0000
+
+Vonalmenti:
+
+fmin =
+
+    1.0000    1.0000    2.8627   -0.8049
+
+
+fval =
+
+   1.8692e-10
+
+Trust region:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                1                             2
+     1          15           0.3125           0.25            0.5  
+     2          20         0.195846              1          0.696  
+     3          25          0.11156              1          0.509  
+     4          30       0.00908887              1          0.117  
+     5          35      0.000634981              1         0.0337  
+     6          40      4.61728e-06              1        0.00208  
+     7          45      5.46015e-09              1       0.000257  
+     8          50      3.80279e-11              1       2.75e-05  
+     9          55      7.37648e-15              1       3.54e-07  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',1.180691e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    1.0000    1.0000         0         0
+
+
+fval =
+
+   7.3765e-15
+
+
+avg =
+
+    1.0000
+
+------------------------
+     6
+
+    @(x)100*(x(2)-x(1)^2)^2+(1-x(1))^2
+
+Quasi Newton:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                1                             2
+     1          20         0.771192      0.0817341           5.34  
+     2          25         0.610658              1           6.73  
+     3          30         0.522451              1           7.11  
+     4          40         0.261629         0.7075           1.88  
+     5          50         0.248996            0.5           3.44  
+     6          55         0.207486              1           2.94  
+     7          60         0.125351              1            1.5  
+     8          65        0.0893498              1           3.93  
+     9          70        0.0308666              1           1.23  
+    10          80        0.0200762       0.322023           1.95  
+    11          85        0.0138484              1           1.57  
+    12          90       0.00441549              1          0.303  
+    13         100       0.00268684            0.5           1.14  
+    14         105      0.000276522              1           0.28  
+    15         110      4.21032e-05              1          0.122  
+    16         115      1.37272e-06              1        0.00796  
+    17         120      7.48614e-07              1         0.0303  
+    18         125      3.34372e-09              1        0.00221  
+    19         130      6.71309e-11              1       7.22e-05  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         135      1.94746e-11              1       1.06e-06  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',3.522486e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    1.0000    1.0000         0         0
+
+
+fval =
+
+   1.9475e-11
+
+BFGS:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                1                             2
+     1          20         0.771192      0.0817341           5.34  
+     2          25         0.610658              1           6.73  
+     3          30         0.522451              1           7.11  
+     4          40         0.261629         0.7075           1.88  
+     5          50         0.248996            0.5           3.44  
+     6          55         0.207486              1           2.94  
+     7          60         0.125351              1            1.5  
+     8          65        0.0893498              1           3.93  
+     9          70        0.0308666              1           1.23  
+    10          80        0.0200762       0.322023           1.95  
+    11          85        0.0138484              1           1.57  
+    12          90       0.00441549              1          0.303  
+    13         100       0.00268684            0.5           1.14  
+    14         105      0.000276522              1           0.28  
+    15         110      4.21032e-05              1          0.122  
+    16         115      1.37272e-06              1        0.00796  
+    17         120      7.48614e-07              1         0.0303  
+    18         125      3.34372e-09              1        0.00221  
+    19         130      6.71309e-11              1       7.22e-05  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         135      1.94746e-11              1       1.06e-06  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',3.522486e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    1.0000    1.0000         0         0
+
+
+fval =
+
+   1.9475e-11
+
+
+f2 =
+
+    5.0000    6.0000         0         0    0.0000
+   13.3010   -0.7208         0         0   59.6951
+    3.0000    0.5000         0         0    0.0000
+    1.0000    1.0000         0         0    0.0000
+    1.0000    1.0000         0         0    0.0000
+    1.0000    1.0000         0         0    0.0000
+
+Vonalmenti:
+
+fmin =
+
+    1.0000    1.0000   -0.4858    1.4737
+
+
+fval =
+
+   2.0089e-10
+
+Trust region:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                1                             2
+     1          20         0.771192      0.0817341           5.34  
+     2          30         0.524831             10           2.25  
+     3          40         0.464375       0.589368           4.99  
+     4          45         0.370104              1           3.63  
+     5          50         0.253986              1           1.51  
+     6          60         0.215498            0.5           3.75  
+     7          65         0.162358              1           2.69  
+     8          70        0.0996165              1           1.05  
+     9          80        0.0797479            0.5           3.27  
+    10          85        0.0541162              1           2.51  
+    11          90        0.0272077              1          0.559  
+    12         100        0.0180791        0.63085           2.43  
+    13         105        0.0104448              1           1.56  
+    14         110       0.00338333              1          0.593  
+    15         115       0.00123597              1          0.977  
+    16         120      0.000152097              1         0.0138  
+    17         125      1.06408e-05              1         0.0956  
+    18         130      2.78918e-07              1         0.0152  
+    19         135      4.85979e-10              1       0.000237  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         140      1.55541e-11              1       2.68e-05  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible','CSHelpWindow');">Local minimum possible</a>.
+
+fminunc stopped because it cannot decrease the objective function
+along the current <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'search_direction','CSHelpWindow');">search direction</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',5.000000e+00,true,true,'fminunc',0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    1.0000    1.0000         0         0
+
+
+fval =
+
+   1.5554e-11
+
+
+avg =
+
+    1.0000
+
+------------------------
+     7
+
+    @(x)10^4*(x(2)-x(1)^2)^2+(1-x(1))^2
+
+Quasi Newton:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                1                             2
+     1          25         0.951213       0.021888           38.4  
+     2          30         0.902367              1           5.89  
+     3          40         0.864314       0.469996           28.5  
+     4          45         0.832243              1           25.1  
+     5          50         0.789151              1           17.3  
+     6          60         0.738466       0.368064           31.2  
+     7          65         0.727964              1           4.68  
+     8          70         0.701915              1           9.44  
+     9          80         0.683101       0.333143           35.3  
+    10          85         0.658389              1           13.8  
+    11          90         0.619425              1           10.8  
+    12         100         0.598667       0.470584           26.9  
+    13         105         0.562503              1           20.2  
+    14         110         0.528008              1           3.78  
+    15         125         0.501866       0.203839           18.8  
+    16         130         0.489128              1           28.5  
+    17         135         0.450919              1           13.3  
+    18         140         0.432981              1             32  
+    19         145         0.392401              1           2.17  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         155          0.37288            0.5           17.9  
+    21         160         0.359834              1           27.1  
+    22         165          0.32712              1           8.46  
+    23         175         0.312766       0.590312           20.9  
+    24         180         0.290777              1           17.2  
+    25         185         0.269519              1           8.41  
+    26         195         0.249333       0.363446           21.8  
+    27         200         0.241903              1           5.67  
+    28         205         0.225793              1           6.87  
+    29         215         0.215425        0.37766           21.9  
+    30         220         0.200348              1           11.8  
+    31         230         0.188699       0.652997           21.9  
+    32         235         0.165359              1           6.43  
+    33         245         0.159378       0.410593           19.3  
+    34         250         0.145026              1           16.8  
+    35         255         0.131245              1           7.34  
+    36         265         0.119025       0.376607           19.6  
+    37         270         0.113801              1           9.09  
+    38         275         0.102938              1           27.8  
+    39         280        0.0939541              1          0.583  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    40         285        0.0844581              1           7.48  
+    41         295        0.0810364       0.313379             22  
+    42         300        0.0752195              1           11.9  
+    43         305        0.0656413              1           19.6  
+    44         310        0.0570307              1           3.35  
+    45         320        0.0524263       0.443831           16.8  
+    46         325        0.0473957              1           14.2  
+    47         330        0.0407471              1           5.73  
+    48         340        0.0360663       0.342054           19.7  
+    49         345        0.0338601              1           3.68  
+    50         350        0.0303292              1            4.4  
+    51         360        0.0274156       0.377603           17.2  
+    52         365         0.024032              1            8.5  
+    53         375        0.0210672       0.645035           15.5  
+    54         380        0.0167518              1           5.51  
+    55         390         0.015202            0.5           12.9  
+    56         395        0.0120174              1           9.59  
+    57         400       0.00979162              1            2.9  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'solver_stopped_premature','CSHelpWindow');">Solver stopped prematurely</a>.
+
+fminunc stopped because it exceeded the function evaluation limit,
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'max_fun_evals','CSHelpWindow');">options.MaxFunctionEvaluations</a> = 400 (the default value).
+
+
+fmin =
+
+    0.9013    0.8125         0         0
+
+
+fval =
+
+    0.0098
+
+BFGS:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                1                             2
+     1          25         0.951213       0.021888           38.4  
+     2          30         0.902367              1           5.89  
+     3          40         0.864314       0.469996           28.5  
+     4          45         0.832243              1           25.1  
+     5          50         0.789151              1           17.3  
+     6          60         0.738466       0.368064           31.2  
+     7          65         0.727964              1           4.68  
+     8          70         0.701915              1           9.44  
+     9          80         0.683101       0.333143           35.3  
+    10          85         0.658389              1           13.8  
+    11          90         0.619425              1           10.8  
+    12         100         0.598667       0.470584           26.9  
+    13         105         0.562503              1           20.2  
+    14         110         0.528008              1           3.78  
+    15         125         0.501866       0.203839           18.8  
+    16         130         0.489128              1           28.5  
+    17         135         0.450919              1           13.3  
+    18         140         0.432981              1             32  
+    19         145         0.392401              1           2.17  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         155          0.37288            0.5           17.9  
+    21         160         0.359834              1           27.1  
+    22         165          0.32712              1           8.46  
+    23         175         0.312766       0.590312           20.9  
+    24         180         0.290777              1           17.2  
+    25         185         0.269519              1           8.41  
+    26         195         0.249333       0.363446           21.8  
+    27         200         0.241903              1           5.67  
+    28         205         0.225793              1           6.87  
+    29         215         0.215425        0.37766           21.9  
+    30         220         0.200348              1           11.8  
+    31         230         0.188699       0.652997           21.9  
+    32         235         0.165359              1           6.43  
+    33         245         0.159378       0.410593           19.3  
+    34         250         0.145026              1           16.8  
+    35         255         0.131245              1           7.34  
+    36         265         0.119025       0.376607           19.6  
+    37         270         0.113801              1           9.09  
+    38         275         0.102938              1           27.8  
+    39         280        0.0939541              1          0.583  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    40         285        0.0844581              1           7.48  
+    41         295        0.0810364       0.313379             22  
+    42         300        0.0752195              1           11.9  
+    43         305        0.0656413              1           19.6  
+    44         310        0.0570307              1           3.35  
+    45         320        0.0524263       0.443831           16.8  
+    46         325        0.0473957              1           14.2  
+    47         330        0.0407471              1           5.73  
+    48         340        0.0360663       0.342054           19.7  
+    49         345        0.0338601              1           3.68  
+    50         350        0.0303292              1            4.4  
+    51         360        0.0274156       0.377603           17.2  
+    52         365         0.024032              1            8.5  
+    53         375        0.0210672       0.645035           15.5  
+    54         380        0.0167518              1           5.51  
+    55         390         0.015202            0.5           12.9  
+    56         395        0.0120174              1           9.59  
+    57         400       0.00979162              1            2.9  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'solver_stopped_premature','CSHelpWindow');">Solver stopped prematurely</a>.
+
+fminunc stopped because it exceeded the function evaluation limit,
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'max_fun_evals','CSHelpWindow');">options.MaxFunctionEvaluations</a> = 400 (the default value).
+
+
+fmin =
+
+    0.9013    0.8125         0         0
+
+
+fval =
+
+    0.0098
+
+
+f2 =
+
+    5.0000    6.0000         0         0    0.0000
+   13.3010   -0.7208         0         0   59.6951
+    3.0000    0.5000         0         0    0.0000
+    1.0000    1.0000         0         0    0.0000
+    1.0000    1.0000         0         0    0.0000
+    1.0000    1.0000         0         0    0.0000
+    0.9013    0.8125         0         0    0.0098
+
+Vonalmenti:
+
+fmin =
+
+    1.0000    1.0000    0.1691   -1.8300
+
+
+fval =
+
+   5.9777e-11
+
+Trust region:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                1                             2
+     1          25         0.951213       0.021888           38.4  
+     2          35         0.945956       0.414645           26.1  
+     3          50         0.904252             91           20.6  
+     4          55         0.881299              1             45  
+     5          60         0.872881              1           27.2  
+     6          65         0.867686              1           27.8  
+     7          70         0.851886              1           45.2  
+     8          75         0.844268              1           33.8  
+     9          80         0.839067              1           30.4  
+    10          85         0.814655              1           1.83  
+    11          95         0.781656             10           15.8  
+    12         105         0.697657       0.642128             14  
+    13         115         0.696682       0.121014           19.9  
+    14         125         0.694435             10           15.2  
+    15         130         0.692857              1           8.29  
+    16         135         0.692575              1           7.29  
+    17         140          0.69166              1           2.15  
+    18         145         0.691381              1           1.27  
+    19         150         0.690477              1           3.92  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         155         0.690193              1           4.95  
+    21         160         0.689291              1           9.93  
+    22         165         0.688985              1           11.2  
+    23         170         0.688179              1           15.8  
+    24         175         0.687817              1           17.6  
+    25         180         0.687094              1           21.8  
+    26         185         0.686541              1             25  
+    27         210         0.549965        12.4289           13.1  
+    28         230         0.549937     0.00510855           14.1  
+    29         250         0.522187            820           15.3  
+    30         260         0.512681       0.442244           26.9  
+    31         265         0.512583              1           26.5  
+    32         270         0.512111              1           23.6  
+    33         275            0.512              1             23  
+    34         280         0.511739              1           20.9  
+    35         285         0.511625              1           20.2  
+    36         290          0.51141              1           18.3  
+    37         295         0.511294              1           17.4  
+    38         300         0.511102              1           15.6  
+    39         305         0.510985              1           14.7  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    40         310         0.510807              1             13  
+    41         315          0.51069              1             12  
+    42         320         0.510521              1           10.3  
+    43         325         0.510405              1           9.23  
+    44         330         0.510242              1           7.53  
+    45         335         0.510127              1            6.5  
+    46         340         0.509967              1           4.81  
+    47         345         0.509853              1           3.77  
+    48         350         0.509695              1           2.09  
+    49         355         0.509581              1           1.05  
+    50         360         0.509424              1           1.79  
+    51         365          0.50931              1           2.38  
+    52         370         0.509152              1           3.34  
+    53         375         0.509037              1           4.39  
+    54         380         0.508878              1           6.07  
+    55         385         0.508762              1           7.13  
+    56         390         0.508602              1           8.83  
+    57         395         0.508483              1           9.93  
+    58         400         0.508322              1           11.6  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'solver_stopped_premature','CSHelpWindow');">Solver stopped prematurely</a>.
+
+fminunc stopped because it exceeded the function evaluation limit,
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'max_fun_evals','CSHelpWindow');">options.MaxFunctionEvaluations</a> = 400 (the default value).
+
+
+fmin =
+
+    0.2894    0.0843         0         0
+
+
+fval =
+
+    0.5083
+
+
+avg =
+
+    0.7730
+
+------------------------
+     8
+
+    @(x)10^6*(x(2)-x(1)^2)^2+(1-x(1))^2
+
+Quasi Newton:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                1                             2
+     1          35         0.993881     0.00238488            117  
+     2          40         0.987562              1            163  
+     3          45         0.972318              1           59.6  
+     4          55         0.967316       0.485021            144  
+     5          60         0.955723              1            127  
+     6          65         0.945515              1           71.4  
+     7          75         0.932968       0.402848            129  
+     8          80         0.928909              1           81.5  
+     9          90          0.92164       0.413859            170  
+    10          95         0.910535              1           65.5  
+    11         105         0.904007            0.5            137  
+    12         110         0.893556              1            124  
+    13         115         0.883257              1           70.2  
+    14         125         0.871619       0.385459            137  
+    15         130         0.868032              1           57.6  
+    16         135         0.856379              1            121  
+    17         140          0.84805              1            130  
+    18         145         0.835789              1           90.9  
+    19         160         0.823111       0.263651           85.1  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         170          0.82158       0.587421            137  
+    21         175         0.815036              1            109  
+    22         180         0.803263              1           71.9  
+    23         185         0.794317              1            137  
+    24         190         0.770247              1           97.8  
+    25         200         0.767893       0.212324           1.57  
+    26         205         0.758006              1            124  
+    27         210           0.7526              1            108  
+    28         215         0.745426              1            104  
+    29         230         0.731311        0.26665           77.5  
+    30         240         0.730339        0.37858            124  
+    31         245         0.725657              1            103  
+    32         250         0.714415              1           85.2  
+    33         255          0.70378              1           19.7  
+    34         270          0.70086       0.109773            105  
+    35         275         0.694354              1            138  
+    36         280         0.682495              1           38.3  
+    37         290           0.6787       0.386561            127  
+    38         295         0.671384              1            106  
+    39         300         0.662016              1           27.8  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    40         315         0.654826        0.22457           93.4  
+    41         320         0.652041              1            152  
+    42         325         0.642738              1           75.3  
+    43         330         0.637043              1            169  
+    44         335         0.625869              1           10.1  
+    45         345         0.619717            0.5           95.1  
+    46         350         0.616693              1            173  
+    47         355         0.607433              1             51  
+    48         360         0.599801              1            128  
+    49         365         0.592682              1           75.7  
+    50         375         0.587946       0.631812            135  
+    51         380         0.573236              1           55.7  
+    52         390         0.569748       0.706106            122  
+    53         395          0.56021              1            205  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'solver_stopped_premature','CSHelpWindow');">Solver stopped prematurely</a>.
+
+fminunc stopped because it exceeded the function evaluation limit,
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'max_fun_evals','CSHelpWindow');">options.MaxFunctionEvaluations</a> = 400 (the default value).
+
+
+fmin =
+
+    0.2586    0.0668         0         0
+
+
+fval =
+
+    0.5602
+
+BFGS:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                1                             2
+     1          35         0.993881     0.00238488            117  
+     2          40         0.987562              1            163  
+     3          45         0.972318              1           59.6  
+     4          55         0.967316       0.485021            144  
+     5          60         0.955723              1            127  
+     6          65         0.945515              1           71.4  
+     7          75         0.932968       0.402848            129  
+     8          80         0.928909              1           81.5  
+     9          90          0.92164       0.413859            170  
+    10          95         0.910535              1           65.5  
+    11         105         0.904007            0.5            137  
+    12         110         0.893556              1            124  
+    13         115         0.883257              1           70.2  
+    14         125         0.871619       0.385459            137  
+    15         130         0.868032              1           57.6  
+    16         135         0.856379              1            121  
+    17         140          0.84805              1            130  
+    18         145         0.835789              1           90.9  
+    19         160         0.823111       0.263651           85.1  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         170          0.82158       0.587421            137  
+    21         175         0.815036              1            109  
+    22         180         0.803263              1           71.9  
+    23         185         0.794317              1            137  
+    24         190         0.770247              1           97.8  
+    25         200         0.767893       0.212324           1.57  
+    26         205         0.758006              1            124  
+    27         210           0.7526              1            108  
+    28         215         0.745426              1            104  
+    29         230         0.731311        0.26665           77.5  
+    30         240         0.730339        0.37858            124  
+    31         245         0.725657              1            103  
+    32         250         0.714415              1           85.2  
+    33         255          0.70378              1           19.7  
+    34         270          0.70086       0.109773            105  
+    35         275         0.694354              1            138  
+    36         280         0.682495              1           38.3  
+    37         290           0.6787       0.386561            127  
+    38         295         0.671384              1            106  
+    39         300         0.662016              1           27.8  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    40         315         0.654826        0.22457           93.4  
+    41         320         0.652041              1            152  
+    42         325         0.642738              1           75.3  
+    43         330         0.637043              1            169  
+    44         335         0.625869              1           10.1  
+    45         345         0.619717            0.5           95.1  
+    46         350         0.616693              1            173  
+    47         355         0.607433              1             51  
+    48         360         0.599801              1            128  
+    49         365         0.592682              1           75.7  
+    50         375         0.587946       0.631812            135  
+    51         380         0.573236              1           55.7  
+    52         390         0.569748       0.706106            122  
+    53         395          0.56021              1            205  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'solver_stopped_premature','CSHelpWindow');">Solver stopped prematurely</a>.
+
+fminunc stopped because it exceeded the function evaluation limit,
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'max_fun_evals','CSHelpWindow');">options.MaxFunctionEvaluations</a> = 400 (the default value).
+
+
+fmin =
+
+    0.2586    0.0668         0         0
+
+
+fval =
+
+    0.5602
+
+
+f2 =
+
+    5.0000    6.0000         0         0    0.0000
+   13.3010   -0.7208         0         0   59.6951
+    3.0000    0.5000         0         0    0.0000
+    1.0000    1.0000         0         0    0.0000
+    1.0000    1.0000         0         0    0.0000
+    1.0000    1.0000         0         0    0.0000
+    0.9013    0.8125         0         0    0.0098
+    0.2586    0.0668         0         0    0.5602
+
+Vonalmenti:
+ 
+Exiting: Maximum number of function evaluations has been exceeded
+         - increase MaxFunEvals option.
+         Current function value: 0.308726 
+
+
+fmin =
+
+    0.4446    0.1977   -3.2945   -3.2059
+
+
+fval =
+
+    0.3087
+
+Trust region:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                1                             2
+     1          35         0.993881     0.00238488            117  
+     2          40         0.993878              1            117  
+     3          45         0.993868              1            122  
+     4          50         0.993865              1            123  
+     5          55         0.993853              1            128  
+     6          65         0.993839        8.21269            133  
+     7          70         0.993835              1            134  
+     8          75         0.993828              1            137  
+     9          80         0.993825              1            138  
+    10          85         0.993817              1            141  
+    11          90         0.993814              1            142  
+    12          95         0.993806              1            146  
+    13         100         0.993803              1            147  
+    14         105         0.993793              1            151  
+    15         110          0.99379              1            151  
+    16         115         0.993778              1            155  
+    17         125         0.993763             10            161  
+    18         145         0.991798            820            127  
+    19         150         0.989403              1           33.1  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         155         0.989397              1           29.3  
+    21         160         0.989394              1             28  
+    22         165         0.989389              1           24.5  
+    23         170         0.989386              1           23.2  
+    24         175         0.989381              1           19.8  
+    25         180         0.989378              1           18.4  
+    26         185         0.989373              1             15  
+    27         190          0.98937              1           13.6  
+    28         195         0.989365              1           10.2  
+    29         200         0.989362              1           8.84  
+    30         205         0.989357              1           5.43  
+    31         210         0.989354              1           4.07  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible','CSHelpWindow');">Local minimum possible</a>.
+
+fminunc stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_current_step','CSHelpWindow');">size of the current step</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'step_size_tol','CSHelpWindow');">step size tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',2.000000e+00,true,true,'fminunc',6.809693e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    0.0053    0.0000         0         0
+
+
+fval =
+
+    0.9894
+
+
+avg =
+
+    0.2418
+
+------------------------
+     9
+
+    @(x)100*(x(2)-x(1)^3)^2+(1-x(1))^2
+
+Quasi Newton:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                1                             2
+     1          20         0.586915          0.125           3.13  
+     2          35         0.445847        0.22155           5.32  
+     3          40         0.258403              1           2.69  
+     4          55         0.196111        0.16051           2.06  
+     5          60         0.179226              1           2.73  
+     6          65         0.126646              1           2.19  
+     7          70        0.0946797              1           1.03  
+     8          80        0.0738468        0.39468           2.95  
+     9          85        0.0616523              1           1.61  
+    10          95        0.0491286            0.5           2.99  
+    11         100        0.0297263              1           0.69  
+    12         110        0.0248584            0.5           2.55  
+    13         115        0.0157076              1           1.89  
+    14         120        0.0100876              1           0.62  
+    15         130       0.00634779       0.400927           1.77  
+    16         135       0.00453905              1           1.22  
+    17         140       0.00209236              1            1.1  
+    18         150       0.00136652       0.469025          0.374  
+    19         155      0.000526572              1            1.1  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         160      0.000274129              1         0.0851  
+    21         165      0.000102705              1         0.0906  
+    22         170      1.68041e-05              1          0.229  
+    23         175      1.14872e-06              1        0.00558  
+    24         180       1.6992e-08              1        0.00184  
+    25         185      1.22903e-10              1       0.000206  
+    26         190      8.06302e-11              1       3.69e-06  
+    27         195      8.00608e-11              1       1.42e-08  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',4.728211e-09,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    1.0000    1.0000         0         0
+
+
+fval =
+
+   8.0061e-11
+
+BFGS:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                1                             2
+     1          20         0.586915          0.125           3.13  
+     2          35         0.445847        0.22155           5.32  
+     3          40         0.258403              1           2.69  
+     4          55         0.196111        0.16051           2.06  
+     5          60         0.179226              1           2.73  
+     6          65         0.126646              1           2.19  
+     7          70        0.0946797              1           1.03  
+     8          80        0.0738468        0.39468           2.95  
+     9          85        0.0616523              1           1.61  
+    10          95        0.0491286            0.5           2.99  
+    11         100        0.0297263              1           0.69  
+    12         110        0.0248584            0.5           2.55  
+    13         115        0.0157076              1           1.89  
+    14         120        0.0100876              1           0.62  
+    15         130       0.00634779       0.400927           1.77  
+    16         135       0.00453905              1           1.22  
+    17         140       0.00209236              1            1.1  
+    18         150       0.00136652       0.469025          0.374  
+    19         155      0.000526572              1            1.1  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         160      0.000274129              1         0.0851  
+    21         165      0.000102705              1         0.0906  
+    22         170      1.68041e-05              1          0.229  
+    23         175      1.14872e-06              1        0.00558  
+    24         180       1.6992e-08              1        0.00184  
+    25         185      1.22903e-10              1       0.000206  
+    26         190      8.06302e-11              1       3.69e-06  
+    27         195      8.00608e-11              1       1.42e-08  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',4.728211e-09,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    1.0000    1.0000         0         0
+
+
+fval =
+
+   8.0061e-11
+
+
+f2 =
+
+    5.0000    6.0000         0         0    0.0000
+   13.3010   -0.7208         0         0   59.6951
+    3.0000    0.5000         0         0    0.0000
+    1.0000    1.0000         0         0    0.0000
+    1.0000    1.0000         0         0    0.0000
+    1.0000    1.0000         0         0    0.0000
+    0.9013    0.8125         0         0    0.0098
+    0.2586    0.0668         0         0    0.5602
+    1.0000    1.0000         0         0    0.0000
+
+Vonalmenti:
+
+fmin =
+
+    1.0000    1.0000    1.4359    0.4960
+
+
+fval =
+
+   5.5211e-11
+
+Trust region:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                1                             2
+     1          20         0.586915          0.125           3.13  
+     2          30         0.548356       0.339794           6.58  
+     3          35         0.487005              1           4.13  
+     4          40         0.408817              1           1.13  
+     5          45         0.355268              1           1.55  
+     6          55         0.231458            0.5           2.88  
+     7          65         0.194845             10           1.28  
+     8          95        0.0887556        15.4154           1.76  
+     9         100        0.0852334              1            2.1  
+    10         105        0.0787441              1           4.27  
+    11         110         0.074877              1           3.22  
+    12         115        0.0698412              1           1.79  
+    13         120        0.0660889              1          0.602  
+    14         125        0.0632856              1          0.451  
+    15         130         0.060052              1           1.48  
+    16         135        0.0558796              1           2.54  
+    17         160        0.0177748        2.15978           1.26  
+    18         170        0.0177363       0.120027           1.52  
+    19         180        0.0159289             10           1.34  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         185        0.0090306              1            2.3  
+    21         190       0.00587541              1          0.913  
+    22         195       0.00294629              1              1  
+    23         200       0.00148976              1           1.03  
+    24         205      0.000558425              1          0.405  
+    25         210      0.000197651              1          0.534  
+    26         215      3.36987e-05              1         0.0718  
+    27         220      3.86459e-06              1         0.0976  
+    28         225      9.96616e-08              1        0.00459  
+    29         230      3.84377e-10              1       0.000994  
+    30         235       8.5922e-11              1       3.91e-05  
+    31         240      8.00624e-11              1       3.55e-09  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',1.184363e-09,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    1.0000    1.0000         0         0
+
+
+fval =
+
+   8.0062e-11
+
+
+avg =
+
+    1.0000
+
+------------------------
+    10
+
+    @(x)(4*(x(1)+x(2)))^2+(4*(x(1)+x(2))+(x(1)-x(2))*((x(1)-2)^2+x(2)^2-1))^2
+
+Quasi Newton:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                0                      9.69e-07
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'initial_local_unc','CSHelpWindow');">Initial point is a local minimum</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> at the initial point 
+is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+02,true,true,'fminunc',9.685755e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+     0     0     0     0
+
+
+fval =
+
+     0
+
+BFGS:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                0                      9.69e-07
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'initial_local_unc','CSHelpWindow');">Initial point is a local minimum</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> at the initial point 
+is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+02,true,true,'fminunc',9.685755e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+     0     0     0     0
+
+
+fval =
+
+     0
+
+
+f2 =
+
+    5.0000    6.0000         0         0    0.0000
+   13.3010   -0.7208         0         0   59.6951
+    3.0000    0.5000         0         0    0.0000
+    1.0000    1.0000         0         0    0.0000
+    1.0000    1.0000         0         0    0.0000
+    1.0000    1.0000         0         0    0.0000
+    0.9013    0.8125         0         0    0.0098
+    0.2586    0.0668         0         0    0.5602
+    1.0000    1.0000         0         0    0.0000
+         0         0         0         0         0
+
+Vonalmenti:
+ 
+Exiting: Maximum number of function evaluations has been exceeded
+         - increase MaxFunEvals option.
+         Current function value: 0.000000 
+
+
+fmin =
+
+     0     0     0     0
+
+
+fval =
+
+     0
+
+Trust region:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                0                      9.69e-07
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'initial_local_unc','CSHelpWindow');">Initial point is a local minimum</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> at the initial point 
+is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+02,true,true,'fminunc',9.685755e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+     0     0     0     0
+
+
+fval =
+
+     0
+
+
+avg =
+
+     0
+
+------------------------
+    11
+
+    @(x)(10*(x(1)-x(2))^2+(x(1)-1)^2)^4
+
+Quasi Newton:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                1                             8
+     1          25         0.692356      0.0134596           6.54  
+     2          30         0.474282              1           3.74  
+     3          35         0.204718              1           1.41  
+     4          40        0.0908878              1          0.599  
+     5          45        0.0387761              1          0.246  
+     6          50        0.0167174              1           0.12  
+     7          55       0.00717431              1         0.0659  
+     8          60       0.00308831              1         0.0359  
+     9          65       0.00133119              1         0.0195  
+    10          70      0.000575593              1         0.0106  
+    11          75      0.000249795              1        0.00573  
+    12          80      0.000108941              1        0.00311  
+    13          85      4.78109e-05              1        0.00169  
+    14          90      2.11537e-05              1       0.000927  
+    15          95      9.45823e-06              1       0.000511  
+    16         100      4.28745e-06              1       0.000285  
+    17         105      1.97915e-06              1        0.00016  
+    18         110       9.3616e-07              1       9.21e-05  
+    19         115      4.57837e-07              1       5.42e-05  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         120      2.34591e-07              1        3.3e-05  
+    21         125      1.28473e-07              1       2.11e-05  
+    22         130      7.74782e-08              1       1.45e-05  
+    23         135      5.35929e-08              1       1.11e-05  
+    24         140      4.40572e-08              1       9.61e-06  
+    25         145      4.18912e-08              1       9.28e-06  
+    26         150      4.17766e-08              1       9.27e-06  
+    27         155      4.17754e-08              1       9.27e-06  
+    28         160      4.17723e-08              1       9.27e-06  
+    29         165      4.17643e-08              1       9.26e-06  
+    30         170      4.17433e-08              1       9.26e-06  
+    31         175      4.16882e-08              1       9.25e-06  
+    32         180      4.15448e-08              1       9.23e-06  
+    33         185      4.11717e-08              1       9.15e-06  
+    34         190       4.0214e-08              1       8.95e-06  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',9.943907e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    0.9711    1.0076         0         0
+
+
+fval =
+
+   4.0214e-08
+
+BFGS:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                1                             8
+     1          25         0.692356      0.0134596           6.54  
+     2          30         0.474282              1           3.74  
+     3          35         0.204718              1           1.41  
+     4          40        0.0908878              1          0.599  
+     5          45        0.0387761              1          0.246  
+     6          50        0.0167174              1           0.12  
+     7          55       0.00717431              1         0.0659  
+     8          60       0.00308831              1         0.0359  
+     9          65       0.00133119              1         0.0195  
+    10          70      0.000575593              1         0.0106  
+    11          75      0.000249795              1        0.00573  
+    12          80      0.000108941              1        0.00311  
+    13          85      4.78109e-05              1        0.00169  
+    14          90      2.11537e-05              1       0.000927  
+    15          95      9.45823e-06              1       0.000511  
+    16         100      4.28745e-06              1       0.000285  
+    17         105      1.97915e-06              1        0.00016  
+    18         110       9.3616e-07              1       9.21e-05  
+    19         115      4.57837e-07              1       5.42e-05  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         120      2.34591e-07              1        3.3e-05  
+    21         125      1.28473e-07              1       2.11e-05  
+    22         130      7.74782e-08              1       1.45e-05  
+    23         135      5.35929e-08              1       1.11e-05  
+    24         140      4.40572e-08              1       9.61e-06  
+    25         145      4.18912e-08              1       9.28e-06  
+    26         150      4.17766e-08              1       9.27e-06  
+    27         155      4.17754e-08              1       9.27e-06  
+    28         160      4.17723e-08              1       9.27e-06  
+    29         165      4.17643e-08              1       9.26e-06  
+    30         170      4.17433e-08              1       9.26e-06  
+    31         175      4.16882e-08              1       9.25e-06  
+    32         180      4.15448e-08              1       9.23e-06  
+    33         185      4.11717e-08              1       9.15e-06  
+    34         190       4.0214e-08              1       8.95e-06  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',9.943907e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    0.9711    1.0076         0         0
+
+
+fval =
+
+   4.0214e-08
+
+
+f2 =
+
+    5.0000    6.0000         0         0    0.0000
+   13.3010   -0.7208         0         0   59.6951
+    3.0000    0.5000         0         0    0.0000
+    1.0000    1.0000         0         0    0.0000
+    1.0000    1.0000         0         0    0.0000
+    1.0000    1.0000         0         0    0.0000
+    0.9013    0.8125         0         0    0.0098
+    0.2586    0.0668         0         0    0.5602
+    1.0000    1.0000         0         0    0.0000
+         0         0         0         0         0
+    0.9711    1.0076         0         0    0.0000
+
+Vonalmenti:
+
+fmin =
+
+    1.0000    1.0000    3.1243   -0.1760
+
+
+fval =
+
+   5.4330e-41
+
+Trust region:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                1                             8
+     1          25         0.692356      0.0134596           6.54  
+     2          30         0.537454              1           4.32  
+     3          35         0.277639              1           1.48  
+     4          40         0.145101              1           1.02  
+     5          45        0.0687503              1           0.73  
+     6          50        0.0328202              1          0.479  
+     7          55        0.0155753              1            0.3  
+     8          60       0.00752162              1          0.186  
+     9          65        0.0037212              1          0.116  
+    10          70       0.00191499              1         0.0737  
+    11          75       0.00104351              1         0.0486  
+    12          80      0.000618234              1          0.034  
+    13          85      0.000412553              1         0.0259  
+    14          90      0.000321249              1          0.022  
+    15          95      0.000290553              1         0.0208  
+    16         100       0.00028279              1         0.0205  
+    17         105      0.000277972              1         0.0203  
+    18         110      0.000272062              1         0.0201  
+    19         115      0.000267225              1         0.0198  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         120      0.000261475              1         0.0195  
+    21         125      0.000256605              1         0.0191  
+    22         130      0.000250992              1         0.0187  
+    23         135      0.000246099              1         0.0183  
+    24         140      0.000240605              1         0.0179  
+    25         145      0.000235698              1         0.0174  
+    26         150      0.000230309              1         0.0169  
+    27         155      0.000225398              1         0.0164  
+    28         160      0.000220104              1          0.016  
+    29         165      0.000215197              1         0.0156  
+    30         170      0.000209988              1         0.0152  
+    31         175      0.000205093              1         0.0148  
+    32         180      0.000199963              1         0.0144  
+    33         185      0.000195086              1          0.014  
+    34         190      0.000190031              1         0.0135  
+    35         195      0.000185179              1          0.013  
+    36         200      0.000180194              1         0.0125  
+    37         205      0.000175373              1          0.012  
+    38         210      0.000170456              1         0.0114  
+    39         215      0.000165671              1         0.0108  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    40         220       0.00016082              1         0.0103  
+    41         225      0.000156076              1        0.00969  
+    42         230      0.000151291              1        0.00909  
+    43         235      0.000146594              1        0.00849  
+    44         240      0.000141875              1        0.00788  
+    45         245      0.000137228              1        0.00728  
+    46         250      0.000132575              1        0.00667  
+    47         255      0.000127985              1        0.00606  
+    48         260        0.0001234              1        0.00545  
+    49         265       0.00011887              1        0.00486  
+    50         270      0.000114354              1        0.00427  
+    51         275       0.00010989              1        0.00369  
+    52         280      0.000105447              1        0.00313  
+    53         285      0.000101053              1        0.00258  
+    54         290      9.66871e-05              1        0.00205  
+    55         295      9.23681e-05              1        0.00154  
+    56         300      8.80838e-05              1        0.00118  
+    57         305      8.38464e-05              1        0.00157  
+    58         310       7.9649e-05              1        0.00191  
+    59         315         7.55e-05              1        0.00222  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    60         320      7.13961e-05              1        0.00249  
+    61         325      6.73434e-05              1        0.00272  
+    62         330      6.33412e-05              1        0.00291  
+    63         335      5.93943e-05              1        0.00306  
+    64         340      5.55038e-05              1        0.00316  
+    65         345       5.1674e-05              1        0.00323  
+    66         350      4.79076e-05              1        0.00325  
+    67         355      4.42091e-05              1        0.00323  
+    68         360      4.05826e-05              1        0.00317  
+    69         365      3.70336e-05              1        0.00307  
+    70         370      3.35677e-05              1        0.00294  
+    71         375       3.0192e-05              1        0.00277  
+    72         380      2.69144e-05              1        0.00258  
+    73         385      2.37445e-05              1        0.00235  
+    74         390      2.06938e-05              1        0.00211  
+    75         395       1.7776e-05              1        0.00185  
+    76         400      1.50077e-05              1        0.00158  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'solver_stopped_premature','CSHelpWindow');">Solver stopped prematurely</a>.
+
+fminunc stopped because it exceeded the function evaluation limit,
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'max_fun_evals','CSHelpWindow');">options.MaxFunctionEvaluations</a> = 400 (the default value).
+
+
+fmin =
+
+    1.0443    0.9667         0         0
+
+
+fval =
+
+   1.5008e-05
+
+
+avg =
+
+    0.9967
+
+------------------------
+    12
+
+    @(x)(10*(x(1)-x(2))^2+(x(1)-1)^2)^1/4
+
+Quasi Newton:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5             0.25                           0.5
+     1          15         0.227273       0.181818          0.455  
+     2          25        0.0681293             10          0.249  
+     3          30       2.9388e-14              1        9.1e-08  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',6.067142e-08,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    1.0000    1.0000         0         0
+
+
+fval =
+
+   2.9388e-14
+
+BFGS:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5             0.25                           0.5
+     1          15         0.227273       0.181818          0.455  
+     2          25        0.0681293             10          0.249  
+     3          30       2.9388e-14              1        9.1e-08  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',6.067142e-08,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    1.0000    1.0000         0         0
+
+
+fval =
+
+   2.9388e-14
+
+
+f2 =
+
+    5.0000    6.0000         0         0    0.0000
+   13.3010   -0.7208         0         0   59.6951
+    3.0000    0.5000         0         0    0.0000
+    1.0000    1.0000         0         0    0.0000
+    1.0000    1.0000         0         0    0.0000
+    1.0000    1.0000         0         0    0.0000
+    0.9013    0.8125         0         0    0.0098
+    0.2586    0.0668         0         0    0.5602
+    1.0000    1.0000         0         0    0.0000
+         0         0         0         0         0
+    0.9711    1.0076         0         0    0.0000
+    1.0000    1.0000         0         0    0.0000
+
+Vonalmenti:
+
+fmin =
+
+    1.0000    1.0000    3.1243   -0.1760
+
+
+fval =
+
+   2.1463e-11
+
+Trust region:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5             0.25                           0.5
+     1          15         0.227273       0.181818          0.455  
+     2          25         0.128612             10          0.342  
+     3          30      9.69617e-14              1       2.29e-07  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',1.524908e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    1.0000    1.0000         0         0
+
+
+fval =
+
+   9.6962e-14
+
+
+avg =
+
+    1.0000
+
+------------------------
+    13
+
+    @(x)100*(x(2)-x(1)^2)+(1-x(1))^2+90*(x(4)-x(3)^2)+(1-x(3))^2+10.1*((x(2)-1)^2+(x(4)-1^2)+19.8*(x(2)-1))*(x(4)-1)
+
+Quasi Newton:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5           201.98                           120
+     1          10           158.32     0.00832778            100  
+     2          15          128.004              1           71.2  
+     3          25          -3266.3        9.50064            615  
+     4          40          -3301.4      0.0455642            529  
+     5          55           -69275        25.2806       8.44e+03  
+     6          75         -71037.7     0.00221756       1.06e+04  
+     7          90     -7.78528e+06        54.3141       6.74e+05  
+     8         115     -7.86909e+06    0.000403646       7.51e+05  
+     9         130      -3.0965e+08        51.0291       1.41e+07  
+    10         150     -3.21557e+08     0.00348257       1.71e+07  
+    11         170     -5.71985e+09        16.1199       1.53e+08  
+    12         185     -6.38605e+09      0.0187976       2.08e+08  
+    13         195     -7.23302e+10        6.45504       1.22e+09  
+    14         210     -8.95821e+10      0.0486642       1.84e+09  
+    15         220     -7.50097e+11        3.50684       8.19e+09  
+    16         230     -1.05079e+12            0.1       1.38e+10  
+    17         240     -9.11557e+12        2.88326       5.74e+10  
+    18         250     -1.32466e+13            0.1       9.63e+10  
+    19         260      -9.6703e+13        2.35824       3.56e+11  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         270     -1.54849e+14       0.141208        6.2e+11  
+    21         275     -7.19798e+14              1       1.37e+12  
+    22         290       -1.074e+15      0.0129055       2.35e+12  
+    23         300     -6.08331e+15        8.22998       7.11e+12  
+    24         310     -1.30284e+16       0.344555       1.37e+13  
+    25         315     -6.05542e+16              1       3.09e+13  
+    26         325     -1.20842e+17       0.199871       5.76e+13  
+    27         330     -4.45986e+17              1       9.78e+13  
+    28         345     -7.85613e+17      0.0168214       1.75e+14  
+    29         355     -6.92577e+18             10       5.55e+14  
+    30         370     -9.40147e+18      0.0158096       8.44e+14  
+    31         380     -2.46302e+22             10       3.62e+15  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'appears_unbounded_fminunc','CSHelpWindow');">Problem appears unbounded</a>.
+
+fminunc stopped because the objective function value is less than
+or equal to the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'objective_limit_fminunc','CSHelpWindow');">objective function limit</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',-3.000000e+00,true,true,'fminunc',-2.463019e+22,'default',-1.000000e+20,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+   1.0e+10 *
+
+    1.0742    0.0003    0.8833   -0.0052
+
+
+fval =
+
+  -2.4630e+22
+
+BFGS:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5           201.98                           120
+     1          10           158.32     0.00832778            100  
+     2          15          128.004              1           71.2  
+     3          25          -3266.3        9.50064            615  
+     4          40          -3301.4      0.0455642            529  
+     5          55           -69275        25.2806       8.44e+03  
+     6          75         -71037.7     0.00221756       1.06e+04  
+     7          90     -7.78528e+06        54.3141       6.74e+05  
+     8         115     -7.86909e+06    0.000403646       7.51e+05  
+     9         130      -3.0965e+08        51.0291       1.41e+07  
+    10         150     -3.21557e+08     0.00348257       1.71e+07  
+    11         170     -5.71985e+09        16.1199       1.53e+08  
+    12         185     -6.38605e+09      0.0187976       2.08e+08  
+    13         195     -7.23302e+10        6.45504       1.22e+09  
+    14         210     -8.95821e+10      0.0486642       1.84e+09  
+    15         220     -7.50097e+11        3.50684       8.19e+09  
+    16         230     -1.05079e+12            0.1       1.38e+10  
+    17         240     -9.11557e+12        2.88326       5.74e+10  
+    18         250     -1.32466e+13            0.1       9.63e+10  
+    19         260      -9.6703e+13        2.35824       3.56e+11  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         270     -1.54849e+14       0.141208        6.2e+11  
+    21         275     -7.19798e+14              1       1.37e+12  
+    22         290       -1.074e+15      0.0129055       2.35e+12  
+    23         300     -6.08331e+15        8.22998       7.11e+12  
+    24         310     -1.30284e+16       0.344555       1.37e+13  
+    25         315     -6.05542e+16              1       3.09e+13  
+    26         325     -1.20842e+17       0.199871       5.76e+13  
+    27         330     -4.45986e+17              1       9.78e+13  
+    28         345     -7.85613e+17      0.0168214       1.75e+14  
+    29         355     -6.92577e+18             10       5.55e+14  
+    30         370     -9.40147e+18      0.0158096       8.44e+14  
+    31         380     -2.46302e+22             10       3.62e+15  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'appears_unbounded_fminunc','CSHelpWindow');">Problem appears unbounded</a>.
+
+fminunc stopped because the objective function value is less than
+or equal to the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'objective_limit_fminunc','CSHelpWindow');">objective function limit</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',-3.000000e+00,true,true,'fminunc',-2.463019e+22,'default',-1.000000e+20,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+   1.0e+10 *
+
+    1.0742    0.0003    0.8833   -0.0052
+
+
+fval =
+
+  -2.4630e+22
+
+
+f2 =
+
+   1.0e+22 *
+
+    0.0000    0.0000         0         0    0.0000
+    0.0000   -0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+         0         0         0         0         0
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000    0.0000   -0.0000   -2.4630
+
+Vonalmenti:
+ 
+Exiting: Maximum number of function evaluations has been exceeded
+         - increase MaxFunEvals option.
+         Current function value: -14010646349031957776412144575852769142640722600474679205083301806080.000000 
+
+
+fmin =
+
+   1.0e+32 *
+
+    1.8207    0.0000   -4.2623    2.0711
+
+
+fval =
+
+  -1.4011e+67
+
+Trust region:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5           201.98                           120
+     1          10           158.32     0.00832778            100  
+     2          15          129.878              1           67.9  
+     3          30         -2783.31        54.8378       3.25e+03  
+     4          75     -8.62167e+20    4.84276e+07       6.97e+15  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'appears_unbounded_fminunc','CSHelpWindow');">Problem appears unbounded</a>.
+
+fminunc stopped because the objective function value is less than
+or equal to the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'objective_limit_fminunc','CSHelpWindow');">objective function limit</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',-3.000000e+00,true,true,'fminunc',-8.621670e+20,'default',-1.000000e+20,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+   1.0e+07 *
+
+    0.2096   -2.6274    0.1897   -0.0124
+
+
+fval =
+
+  -8.6217e+20
+
+
+avg =
+
+   4.5518e+31
+
+------------------------
+    14
+
+    @(x)(x(1)+10*x(2))^2+5*(x(3)-x(4))^2+(x(2)-2*x(3))^4+10*(x(1)-x(4))^4
+
+Quasi Newton:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                0                      1.49e-06
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible','CSHelpWindow');">Local minimum possible</a>.
+
+fminunc stopped because it cannot decrease the objective function
+along the current <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'search_direction','CSHelpWindow');">search direction</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',5.000000e+00,true,true,'fminunc',0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+     0     0     0     0
+
+
+fval =
+
+     0
+
+BFGS:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                0                      1.49e-06
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible','CSHelpWindow');">Local minimum possible</a>.
+
+fminunc stopped because it cannot decrease the objective function
+along the current <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'search_direction','CSHelpWindow');">search direction</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',5.000000e+00,true,true,'fminunc',0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+     0     0     0     0
+
+
+fval =
+
+     0
+
+
+f2 =
+
+   1.0e+22 *
+
+    0.0000    0.0000         0         0    0.0000
+    0.0000   -0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+         0         0         0         0         0
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000    0.0000   -0.0000   -2.4630
+         0         0         0         0         0
+
+Vonalmenti:
+
+fmin =
+
+     0     0     0     0
+
+
+fval =
+
+     0
+
+Trust region:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                0                      1.49e-06
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible','CSHelpWindow');">Local minimum possible</a>.
+
+fminunc stopped because it cannot decrease the objective function
+along the current <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'search_direction','CSHelpWindow');">search direction</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',5.000000e+00,true,true,'fminunc',0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+     0     0     0     0
+
+
+fval =
+
+     0
+
+
+avg =
+
+     0
+
+------------------------
+    15
+
+    @(x)100*(x(2)-x(1)^2)^2+(1-x(1))^2+90*(x(4)-x(3)^2)^2+(1-x(3)^2)+10.1*((x(2)-1)^2+(x(4)-1)^2)+19.8*(x(2)-1)*(x(4)-1)
+
+Quasi Newton:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5               42                            40
+     1          15          35.0235     0.00435569           2.59  
+     2          20          34.9752              1           3.29  
+     3          25          34.6639              1           10.4  
+     4          35          34.5312        0.29023           18.8  
+     5          45          33.3329        3.49663           39.2  
+     6          50          28.8694              1           50.3  
+     7          55          13.3366              1            139  
+     8          65          4.47695        0.32039           18.2  
+     9          70          2.13431              1           7.18  
+    10          75          1.59131              1           10.5  
+    11          80          1.55878              1           2.04  
+    12          85          1.55642              1         0.0143  
+    13          90          1.55641              1        0.00778  
+    14          95          1.55641              1       0.000303  
+    15         100          1.55641              1       4.05e-06  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',9.885649e-08,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    1.3996    1.9603    0.0000    0.0059
+
+
+fval =
+
+    1.5564
+
+BFGS:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5               42                            40
+     1          15          35.0235     0.00435569           2.59  
+     2          20          34.9752              1           3.29  
+     3          25          34.6639              1           10.4  
+     4          35          34.5312        0.29023           18.8  
+     5          45          33.3329        3.49663           39.2  
+     6          50          28.8694              1           50.3  
+     7          55          13.3366              1            139  
+     8          65          4.47695        0.32039           18.2  
+     9          70          2.13431              1           7.18  
+    10          75          1.59131              1           10.5  
+    11          80          1.55878              1           2.04  
+    12          85          1.55642              1         0.0143  
+    13          90          1.55641              1        0.00778  
+    14          95          1.55641              1       0.000303  
+    15         100          1.55641              1       4.05e-06  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',9.885649e-08,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    1.3996    1.9603    0.0000    0.0059
+
+
+fval =
+
+    1.5564
+
+
+f2 =
+
+   1.0e+22 *
+
+    0.0000    0.0000         0         0    0.0000
+    0.0000   -0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+         0         0         0         0         0
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000    0.0000   -0.0000   -2.4630
+         0         0         0         0         0
+    0.0000    0.0000    0.0000    0.0000    0.0000
+
+Vonalmenti:
+
+fmin =
+
+    0.6552    0.4266   -1.2716    1.6115
+
+
+fval =
+
+   -0.3398
+
+Trust region:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5               42                            40
+     1          15          35.0235     0.00435569           2.59  
+     2          20          34.9754              1           3.29  
+     3          25          34.8814              1           5.55  
+     4          35          34.6392        8.87702           17.1  
+     5          40          34.5959              1           14.4  
+     6          45          34.5398              1           12.8  
+     7          50          34.4199              1           8.81  
+     8          55          34.3621              1           9.06  
+     9          60          34.2725              1           9.68  
+    10          65          34.2132              1           10.2  
+    11          70          34.1179              1           11.7  
+    12          75          34.0515              1           12.9  
+    13          80          33.9351              1           16.2  
+    14          85          33.8455              1           19.2  
+    15          90          33.6437              1             28  
+    16         115           15.579        3.78975           57.9  
+    17         125          15.5497            0.1           58.7  
+    18         135          10.3497             10           40.6  
+    19         140          4.51694              1           12.7  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         145          4.25494              1           7.31  
+    21         150          3.97212              1           21.2  
+    22         155          3.94797              1             20  
+    23         160          3.90864              1           17.8  
+    24         165          3.88874              1             17  
+    25         170          3.85082              1             15  
+    26         175          3.83121              1           14.7  
+    27         180          3.79419              1             14  
+    28         185          3.77486              1           13.6  
+    29         190          3.73858              1           12.7  
+    30         195          3.71951              1           12.3  
+    31         200          3.68391              1           11.2  
+    32         205          3.66505              1           11.2  
+    33         210          3.63016              1           13.4  
+    34         215          3.61145              1           14.3  
+    35         220          3.57739              1           16.3  
+    36         225          3.55879              1           17.1  
+    37         230          3.52572              1           18.8  
+    38         235          3.50718              1           19.5  
+    39         240          3.47523              1             21  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    40         245          3.45674              1           21.5  
+    41         250          3.42601              1           22.7  
+    42         255          3.40757              1           23.2  
+    43         260          3.37806              1             24  
+    44         265           3.3597              1           24.3  
+    45         270          3.33137              1           24.8  
+    46         275          3.31314              1             25  
+    47         280           3.2859              1           25.2  
+    48         285          3.26785              1           25.2  
+    49         290          3.24161              1           25.1  
+    50         295          3.22379              1           24.9  
+    51         300          3.19842              1           24.5  
+    52         305          3.18087              1           24.1  
+    53         310          3.15625              1           23.4  
+    54         315            3.139              1           22.9  
+    55         320          3.11503              1           21.9  
+    56         325          3.09808              1           21.2  
+    57         330          3.07467              1           21.2  
+    58         335          3.05801              1           21.2  
+    59         340          3.03508              1             21  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    60         345          3.01872              1           20.9  
+    61         350          2.99621              1           20.5  
+    62         355          2.98012              1           20.3  
+    63         360            2.958              1           19.7  
+    64         365          2.94217              1           19.4  
+    65         370          2.92042              1           18.7  
+    66         375          2.90484              1           18.2  
+    67         380          2.88345              1           17.4  
+    68         385          2.86812              1           16.8  
+    69         390          2.84708              1           15.8  
+    70         395          2.83199              1           15.1  
+    71         400          2.81133              1             14  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'solver_stopped_premature','CSHelpWindow');">Solver stopped prematurely</a>.
+
+fminunc stopped because it exceeded the function evaluation limit,
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'max_fun_evals','CSHelpWindow');">options.MaxFunctionEvaluations</a> = 400 (the default value).
+
+
+fmin =
+
+    1.5154    2.3214   -0.0000   -0.0327
+
+
+fval =
+
+    2.8113
+
+
+avg =
+
+    1.2425
+
+------------------------
+    16
+
+    @(x)100*(x(2)-x(1)^2)^2+(1-x(1))^2+90*(x(4)-x(3)^2)^2+(1-x(3))^2+9.9*((x(2)-1)+(x(4)-1))^2+0.2*((x(2)-1)^2+(x(4)-1)^2)
+
+Quasi Newton:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5               42                            40
+     1          15          35.0038     0.00436333           2.59  
+     2          25          34.4995             10           15.1  
+     3          35          33.5783       0.412767           45.3  
+     4          45          32.8345       0.316599             67  
+     5          50          28.5319              1           84.7  
+     6          55          15.1628              1           47.4  
+     7          60          7.78428              1           28.8  
+     8          70         0.553599       0.650341           14.1  
+     9          75         0.084083              1           7.51  
+    10          80        0.0306761              1           3.79  
+    11          85        0.0213764              1          0.884  
+    12          90        0.0206038              1          0.443  
+    13          95        0.0203523              1          0.166  
+    14         100        0.0202271              1          0.179  
+    15         105        0.0192569              1          0.573  
+    16         110        0.0175037              1           1.13  
+    17         115        0.0134969              1           1.87  
+    18         120       0.00827651              1           2.24  
+    19         125        0.0032621              1           1.71  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         130      0.000262272              1          0.426  
+    21         135      7.30042e-06              1         0.0417  
+    22         140      9.22027e-07              1         0.0343  
+    23         145      5.37127e-08              1        0.00458  
+    24         150      3.70657e-09              1       0.000332  
+    25         155      1.20433e-11              1       0.000104  
+    26         160      3.72274e-13              1       8.18e-06  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',1.994293e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    1.0000    1.0000    1.0000    1.0000
+
+
+fval =
+
+   3.7227e-13
+
+BFGS:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5               42                            40
+     1          15          35.0038     0.00436333           2.59  
+     2          25          34.4995             10           15.1  
+     3          35          33.5783       0.412767           45.3  
+     4          45          32.8345       0.316599             67  
+     5          50          28.5319              1           84.7  
+     6          55          15.1628              1           47.4  
+     7          60          7.78428              1           28.8  
+     8          70         0.553599       0.650341           14.1  
+     9          75         0.084083              1           7.51  
+    10          80        0.0306761              1           3.79  
+    11          85        0.0213764              1          0.884  
+    12          90        0.0206038              1          0.443  
+    13          95        0.0203523              1          0.166  
+    14         100        0.0202271              1          0.179  
+    15         105        0.0192569              1          0.573  
+    16         110        0.0175037              1           1.13  
+    17         115        0.0134969              1           1.87  
+    18         120       0.00827651              1           2.24  
+    19         125        0.0032621              1           1.71  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         130      0.000262272              1          0.426  
+    21         135      7.30042e-06              1         0.0417  
+    22         140      9.22027e-07              1         0.0343  
+    23         145      5.37127e-08              1        0.00458  
+    24         150      3.70657e-09              1       0.000332  
+    25         155      1.20433e-11              1       0.000104  
+    26         160      3.72274e-13              1       8.18e-06  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',1.994293e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    1.0000    1.0000    1.0000    1.0000
+
+
+fval =
+
+   3.7227e-13
+
+
+f2 =
+
+   1.0e+22 *
+
+    0.0000    0.0000         0         0    0.0000
+    0.0000   -0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+         0         0         0         0         0
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000    0.0000   -0.0000   -2.4630
+         0         0         0         0         0
+    0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000    0.0000    0.0000
+
+Vonalmenti:
+
+fmin =
+
+   -1.1840    1.4113   -0.6870    0.4853
+
+
+fval =
+
+    7.8334
+
+Trust region:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5               42                            40
+     1          15          35.0038     0.00436333           2.59  
+     2          25          34.5001             10             15  
+     3          30          34.4183              1           19.5  
+     4          35          34.3206              1           31.8  
+     5          45          33.8189             10           22.7  
+     6          50          33.6903              1           23.4  
+     7          55          33.3882              1           25.8  
+     8          80          20.2855        4.22968           39.1  
+     9          90            20.23       0.165914           43.1  
+    10         110          6.22373        32.7624             49  
+    11         120          5.78419       0.431798           42.9  
+    12         125          5.27626              1           35.9  
+    13         130           3.8659              1           16.6  
+    14         135          3.80632              1           13.6  
+    15         140          3.77333              1           11.5  
+    16         145          3.74123              1           9.03  
+    17         150          3.71276              1           9.67  
+    18         155          3.68465              1           11.4  
+    19         160          3.65928              1           12.6  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         165          3.63409              1           13.4  
+    21         170          3.61123              1           13.8  
+    22         175          3.58872              1           13.8  
+    23         180          3.56847              1           13.4  
+    24         185          3.54897              1           12.5  
+    25         190          3.53169              1           11.2  
+    26         195           3.5153              1           9.63  
+    27         200           3.5008              1           8.19  
+    28         205          3.48694              1           7.84  
+    29         210          3.47456              1           7.21  
+    30         215          3.46257              1           6.29  
+    31         220          3.45183              1           5.23  
+    32         225          3.44144              1           3.96  
+    33         230          3.43221              1           2.96  
+    34         235          3.42342              1           4.11  
+    35         240          3.41572              1           4.87  
+    36         245          3.40851              1            5.3  
+    37         250          3.40223              1           5.38  
+    38         255          3.39637              1           5.14  
+    39         260          3.39123              1           4.66  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    40         265          3.38641              1           3.97  
+    41         270          3.38214              1           4.15  
+    42         275          3.37816              1           4.14  
+    43         280          3.37465              1           3.94  
+    44         285           3.3714              1           3.58  
+    45         290          3.36854              1            3.1  
+    46         295           3.3659              1           2.53  
+    47         300          3.36354              1           2.41  
+    48         305          3.36135              1           3.03  
+    49         310          3.35934              1           3.52  
+    50         315          3.35743              1           3.89  
+    51         320          3.35565              1           4.14  
+    52         325          3.35394              1           4.29  
+    53         330          3.35231              1           4.34  
+    54         335          3.35072              1            4.3  
+    55         340          3.34919              1           4.19  
+    56         345          3.34768              1           4.19  
+    57         350          3.34622              1           4.16  
+    58         355          3.34477              1            4.1  
+    59         360          3.34335              1           4.01  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    60         365          3.34192              1           3.94  
+    61         370          3.34052              1           4.11  
+    62         375          3.33912              1           4.26  
+    63         380          3.33773              1           4.39  
+    64         385          3.33633              1           4.49  
+    65         390          3.33496              1           4.57  
+    66         395          3.33357              1           4.64  
+    67         400           3.3322              1           4.69  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'solver_stopped_premature','CSHelpWindow');">Solver stopped prematurely</a>.
+
+fminunc stopped because it exceeded the function evaluation limit,
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'max_fun_evals','CSHelpWindow');">options.MaxFunctionEvaluations</a> = 400 (the default value).
+
+
+fmin =
+
+   -0.7904    0.6349    1.1786    1.4011
+
+
+fval =
+
+    3.3322
+
+
+avg =
+
+    0.0064
+
+------------------------
+    17
+
+    @(x)(exp(x(1))-x(2))^4+100*(x(2)-x(3))^6+(tan(x(3)-x(4)))^4+x(1)^8+(x(4)-1)^2
+
+Quasi Newton:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                2                             4
+     1          20         0.868497         0.0625           1.74  
+     2          25         0.588762              1            1.4  
+     3          30         0.282961              1            2.1  
+     4          35         0.154394              1          0.356  
+     5          40         0.103796              1          0.364  
+     6          45        0.0407683              1          0.221  
+     7          50         0.034203              1          0.169  
+     8          55        0.0221902              1          0.129  
+     9          60        0.0180084              1          0.166  
+    10          65        0.0104061              1          0.123  
+    11          70       0.00435238              1         0.0907  
+    12          75       0.00138879              1         0.0449  
+    13          80      0.000554095              1         0.0224  
+    14          85      0.000230971              1         0.0105  
+    15          90      9.46704e-05              1        0.00461  
+    16          95       4.4908e-05              1        0.00224  
+    17         100      2.81316e-05              1        0.00119  
+    18         105      2.31571e-05              1       0.000901  
+    19         110      2.20065e-05              1       0.000885  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         115       2.1708e-05              1        0.00092  
+    21         120      2.14337e-05              1       0.000942  
+    22         125      2.07953e-05              1       0.000962  
+    23         130      1.93459e-05              1       0.000961  
+    24         135      1.61264e-05              1       0.000943  
+    25         140      9.90927e-06              1       0.000701  
+    26         145      1.68603e-06              1       0.000203  
+    27         155      1.52313e-06       0.452802         0.0002  
+    28         160      1.44961e-06              1       0.000192  
+    29         165      9.46284e-07              1       0.000699  
+    30         170       6.1248e-07              1       0.000769  
+    31         175      3.39562e-07              1         0.0004  
+    32         180      2.98673e-07              1       0.000113  
+    33         185      2.91646e-07              1       3.97e-05  
+    34         190       2.9089e-07              1       3.95e-05  
+    35         195      2.88769e-07              1       3.92e-05  
+    36         200      2.87557e-07              1       3.93e-05  
+    37         205      2.80698e-07              1        4.1e-05  
+    38         210      2.66967e-07              1        4.2e-05  
+    39         215       2.3156e-07              1       8.98e-05  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    40         220      1.66344e-07              1       0.000126  
+    41         225      8.79059e-08              1       9.38e-05  
+    42         230      3.69063e-08              1       2.65e-05  
+    43         235      1.46918e-08              1       6.81e-06  
+    44         240      1.07857e-08              1       2.74e-06  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',5.479893e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    0.0207    1.0132    0.9936    1.0000
+
+
+fval =
+
+   1.0786e-08
+
+BFGS:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                2                             4
+     1          20         0.868497         0.0625           1.74  
+     2          25         0.588762              1            1.4  
+     3          30         0.282961              1            2.1  
+     4          35         0.154394              1          0.356  
+     5          40         0.103796              1          0.364  
+     6          45        0.0407683              1          0.221  
+     7          50         0.034203              1          0.169  
+     8          55        0.0221902              1          0.129  
+     9          60        0.0180084              1          0.166  
+    10          65        0.0104061              1          0.123  
+    11          70       0.00435238              1         0.0907  
+    12          75       0.00138879              1         0.0449  
+    13          80      0.000554095              1         0.0224  
+    14          85      0.000230971              1         0.0105  
+    15          90      9.46704e-05              1        0.00461  
+    16          95       4.4908e-05              1        0.00224  
+    17         100      2.81316e-05              1        0.00119  
+    18         105      2.31571e-05              1       0.000901  
+    19         110      2.20065e-05              1       0.000885  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         115       2.1708e-05              1        0.00092  
+    21         120      2.14337e-05              1       0.000942  
+    22         125      2.07953e-05              1       0.000962  
+    23         130      1.93459e-05              1       0.000961  
+    24         135      1.61264e-05              1       0.000943  
+    25         140      9.90927e-06              1       0.000701  
+    26         145      1.68603e-06              1       0.000203  
+    27         155      1.52313e-06       0.452802         0.0002  
+    28         160      1.44961e-06              1       0.000192  
+    29         165      9.46284e-07              1       0.000699  
+    30         170       6.1248e-07              1       0.000769  
+    31         175      3.39562e-07              1         0.0004  
+    32         180      2.98673e-07              1       0.000113  
+    33         185      2.91646e-07              1       3.97e-05  
+    34         190       2.9089e-07              1       3.95e-05  
+    35         195      2.88769e-07              1       3.92e-05  
+    36         200      2.87557e-07              1       3.93e-05  
+    37         205      2.80698e-07              1        4.1e-05  
+    38         210      2.66967e-07              1        4.2e-05  
+    39         215       2.3156e-07              1       8.98e-05  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    40         220      1.66344e-07              1       0.000126  
+    41         225      8.79059e-08              1       9.38e-05  
+    42         230      3.69063e-08              1       2.65e-05  
+    43         235      1.46918e-08              1       6.81e-06  
+    44         240      1.07857e-08              1       2.74e-06  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',5.479893e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+fmin =
+
+    0.0207    1.0132    0.9936    1.0000
+
+
+fval =
+
+   1.0786e-08
+
+
+f2 =
+
+   1.0e+22 *
+
+    0.0000    0.0000         0         0    0.0000
+    0.0000   -0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+         0         0         0         0         0
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000         0         0    0.0000
+    0.0000    0.0000    0.0000   -0.0000   -2.4630
+         0         0         0         0         0
+    0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000    0.0000    0.0000
+
+Vonalmenti:
+
+fmin =
+
+   -0.0013    0.9987    0.9999    1.0000
+
+
+fval =
+
+   3.7909e-16
+
+Trust region:
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           5                2                             4
+     1          20         0.868497         0.0625           1.74  
+     2          25         0.608789              1           1.43  
+     3          30         0.257207              1           1.86  
+     4          35          0.15678              1          0.405  
+     5          40         0.117373              1          0.406  
+     6          45        0.0482127              1          0.307  
+     7          50        0.0403883              1          0.209  
+     8          55        0.0303688              1          0.232  
+     9          60        0.0256843              1          0.192  
+    10          65         0.016898              1          0.119  
+    11          70        0.0140952              1          0.104  
+    12          75        0.0104445              1          0.132  
+    13          80       0.00749991              1          0.137  
+    14          85       0.00433245              1          0.119  
+    15          90       0.00162369              1         0.0779  
+    16          95      0.000192894              1         0.0253  
+    17         100      5.83155e-05              1        0.00405  
+    18         110      5.13955e-05             10        0.00663  
+    19         115      5.01573e-05              1         0.0068  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         120      4.53237e-05              1        0.00759  
+    21         125      4.35228e-05              1        0.00776  
+    22         130      4.08804e-05              1         0.0079  
+    23         135       3.8588e-05              1        0.00787  
+    24         140      3.62588e-05              1        0.00758  
+    25         145      3.51615e-05              1         0.0072  
+    26         150      3.40194e-05              1        0.00663  
+    27         155      3.28854e-05              1        0.00593  
+    28         160      3.16759e-05              1        0.00503  
+    29         165      3.05392e-05              1         0.0041  
+    30         170      2.92962e-05              1        0.00291  
+    31         175      2.82122e-05              1        0.00184  
+    32         180      2.70371e-05              1        0.00116  
+    33         185      2.60695e-05              1         0.0011  
+    34         190      2.50578e-05              1        0.00171  
+    35         195      2.42352e-05              1        0.00257  
+    36         200      2.33805e-05              1        0.00343  
+    37         205      2.26618e-05              1        0.00402  
+    38         210      2.19021e-05              1        0.00455  
+    39         215      2.12352e-05              1        0.00488  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    40         220      2.05298e-05              1        0.00511  
+    41         225      1.98863e-05              1        0.00518  
+    42         230      1.92228e-05              1        0.00513  
+    43         235      1.86059e-05              1        0.00494  
+    44         240      1.80071e-05              1         0.0046  
+    45         245      1.74748e-05              1        0.00414  
+    46         250      1.70123e-05              1        0.00358  
+    47         255      1.66238e-05              1        0.00299  
+    48         260      1.62776e-05              1        0.00236  
+    49         265      1.59582e-05              1        0.00173  
+    50         270      1.56548e-05              1        0.00109  
+    51         275      1.53674e-05              1       0.000677  
+    52         280      1.50926e-05              1       0.000664  
+    53         285      1.48315e-05              1       0.000702  
+    54         290      1.45805e-05              1        0.00122  
+    55         295      1.43402e-05              1        0.00169  
+    56         300      1.41091e-05              1         0.0021  
+    57         305      1.38

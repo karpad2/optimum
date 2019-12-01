@@ -32,7 +32,7 @@ for i=l1
   disp(funs{i})
   try
   disp('Quasi Newton:')
-  [fmin,fval]=fminunc(funs{i},x0,options_qnewton);
+  [fmin,fval]=fminunc(funs{i},x0,options_qnewton)
   f1(i,:)=[fmin,fval];
   catch ME
   disp('Error:')
@@ -40,8 +40,8 @@ for i=l1
   end
   try
   disp('BFGS:')
-  [fmin,fval]=fminunc(funs{i},x0,options_bfgs);% bfgs quasi newton
-  f2(i,:)=[fmin,fval];
+  [fmin,fval]=fminunc(funs{i},x0,options_bfgs)% bfgs quasi newton
+  f2(i,:)=[fmin,fval]
   catch ME
   disp('Error:')
   disp(ME.identifier);
@@ -49,7 +49,7 @@ for i=l1
   
   try
   disp('Vonalmenti:')
- [fmin,fval]=fminsearch(funs{i},x0,options_linesearch);% vonalmenti
+ [fmin,fval]=fminsearch(funs{i},x0,options_linesearch)% vonalmenti
     f3(i,:)=[fmin,fval];
    catch
    disp('Error:')
@@ -58,7 +58,7 @@ for i=l1
   
   try
   disp('Trust region:')
-  [fmin,fval]=fminunc(funs{i},x0,options_trust_region);% dfp quasi newton
+  [fmin,fval]=fminunc(funs{i},x0,options_trust_region)% dfp quasi newton
   f4(i,:)=[fmin,fval];
   catch ME
   disp('Error:')
@@ -66,14 +66,14 @@ for i=l1
   end 
    avg = mean([f1(i,1),f2(i,1),f3(i,1),f4(i,1)])
    
-  pause(15)
+  %pause(30)
  % clc
   
 end
 
 
 
-plot(1:length(f1),f1(:,1)',f2(:,1)',f3(:,1)',f4(:,1)')
+%plot(1:length(f1),f1(:,1)',f2(:,1)',f3(:,1)',f4(:,1)')
 
 
 % Felhasznált irodalom
