@@ -67,7 +67,7 @@ for i=l1
    avg = mean([f1(i,1),f2(i,1),f3(i,1),f4(i,1)])
    
   pause(30)
-  clc
+ % clc
   
 end
 
